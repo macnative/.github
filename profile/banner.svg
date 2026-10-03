@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="icon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5b8dff"/>
+      <stop offset="100%" stop-color="#2b4fd6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+  </g>
+
+  <!-- app-icon glyph: a picked / verified native app -->
+  <rect x="100" y="95" width="110" height="110" rx="26" fill="url(#icon)"/>
+  <circle cx="178" cy="178" r="22" fill="#161b22"/>
+  <path d="M168 178 l7 7 l15 -16" fill="none" stroke="#ff8a5b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="230" y="150" font-family="'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="64" font-weight="700" fill="#f0f6fc">MacNative</text>
+  <text x="230" y="195" font-family="'SF Mono',Menlo,Consolas,monospace"
+        font-size="22" fill="#8b949e">The best of macOS, curated in the open.</text>
+
+  <!-- terminal dots -->
+  <circle cx="1120" cy="60" r="7" fill="#ff5f56"/>
+  <circle cx="1145" cy="60" r="7" fill="#ffbd2e"/>
+  <circle cx="1170" cy="60" r="7" fill="#27c93f"/>
+</svg>
