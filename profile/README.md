@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://macnative.io"><img src="https://img.shields.io/badge/website-macnative.io-0969da?logo=safari&logoColor=white" alt="Website"></a>
-  <a href="https://x.com/best_macapps"><img src="https://img.shields.io/badge/follow-%40best__macapps-000000?logo=x" alt="Follow on X"></a>
+  <a href="https://x.com/mac_native"><img src="https://img.shields.io/badge/follow-%40best__macapps-000000?logo=x" alt="Follow on X"></a>
   <a href="https://macnative.io/blog/how-we-pick-apps"><img src="https://img.shields.io/badge/editorial-native--first-5b8dff" alt="Native-first editorial bar"></a>
 </p>
 
