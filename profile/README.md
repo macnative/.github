@@ -1,32 +1,79 @@
-<p align="center">
-  <img src="banner.svg" alt="MacNative — The best of macOS, curated in the open." width="100%">
-</p>
+# MacNative — Native macOS Apps & Non-Electron Alternatives
 
-<p align="center">
-  <a href="https://macnative.io"><img src="https://img.shields.io/badge/website-macnative.io-0969da?logo=safari&logoColor=white" alt="Website"></a>
-  <a href="https://x.com/mac_native"><img src="https://img.shields.io/badge/follow-%40best__macapps-000000?logo=x" alt="Follow on X"></a>
-  <a href="https://macnative.io/blog/how-we-pick-apps"><img src="https://img.shields.io/badge/editorial-native--first-5b8dff" alt="Native-first editorial bar"></a>
-</p>
+[**MacNative**](https://macnative.io) is an independent directory of **native macOS apps** built to feel at home on the Mac.
 
-MacNative is a hand-picked directory of macOS apps that are genuinely native — built with AppKit or SwiftUI, not a web page wearing a dock icon. Nobody pays to be listed, there's no algorithm, and we don't try to catalogue everything.
+We help Mac users discover fast, lightweight software built with technologies such as **Swift, SwiftUI, AppKit, and Objective-C** — including alternatives to Electron and browser-based desktop apps.
 
-This organization is the open half of that work: the tools we use to do the research, and the lists we'd want to exist ourselves. Everything here is free to use, fork, and send a pull request against.
+**→ [Discover native Mac apps on MacNative](https://macnative.io)**  
+**→ [Browse Mac app categories](https://macnative.io/categories)**  
+**→ [Submit a Mac app](https://macnative.io/submit)**  
+**→ [Read the MacNative guides and comparisons](https://macnative.io/blog)**
 
-## What we're building
+## Open-source projects from MacNative
 
-- **[electron-detector](https://github.com/macnative/electron-detector)** — One command that scans your `/Applications` folder and tells you which of your "native-feeling" apps are secretly running a full Chromium browser, with sizes, versions, and native alternatives. No install, no dependencies, nothing left behind.
-- **[awesome-mac-workflows](https://github.com/macnative/awesome-mac-workflows)** — A cookbook of macOS workflows — Shortcuts, Alfred workflows, Raycast extensions, Keyboard Maestro macros, and Finder Quick Actions — organized by the outcome they get you, not the app that runs them.
-- **[awesome-ai-apps](https://github.com/macnative/awesome-ai-apps)** — Curated AI-powered desktop apps for macOS, Windows, and Linux: chat, coding, writing, media, local LLMs, and agents. Every entry is a real installable desktop app, not a web wrapper.
-- **[awesome-mac-launch-platforms](https://github.com/macnative/awesome-mac-launch-platforms)** — Free and paid places to launch a macOS app: directories, subreddits, other awesome-lists, and newsletters, with real pricing and submission notes.
+### [Electron Detector for macOS](https://github.com/macnative/electron-detector)
 
-## How we decide what's good
+Find out which apps installed on your Mac use **Electron and Chromium**.
 
-The same bar [macnative.io](https://macnative.io) uses applies here: does it respect system conventions, with real menus and keyboard shortcuts? Does it behave properly in full screen and Stage Manager? Is it actually maintained? We'd rather list fewer things and be right about them than catalogue everything. The full criteria are written up in [How We Pick Apps for MacNative](https://macnative.io/blog/how-we-pick-apps).
+Electron Detector is a zero-dependency Bash utility that scans your Applications folder, identifies Electron apps, and helps you decide when a native macOS alternative might be a better fit.
+
+If the scan finds Electron apps you would like to replace, browse the [MacNative directory of native Mac apps](https://macnative.io).
+
+### [Awesome AI Desktop Apps](https://github.com/macnative/awesome-ai-apps)
+
+A curated directory of **AI desktop apps for macOS, Windows, and Linux**, covering AI chat apps, coding assistants, local LLM tools, transcription, writing, agents, productivity, and automation.
+
+### [Awesome Mac Workflows](https://github.com/macnative/awesome-mac-workflows)
+
+Practical **macOS automation workflows** using Apple Shortcuts, Raycast, Alfred, Keyboard Maestro, Hazel, Finder Quick Actions, and native Mac utilities.
+
+Workflows are organized around the task you want to accomplish rather than the automation tool you use.
+
+### [Awesome Mac Launch Platforms](https://github.com/macnative/awesome-mac-launch-platforms)
+
+A curated resource for **Mac app developers launching and promoting macOS apps**, including software directories, GitHub awesome lists, Reddit communities, newsletters, and launch platforms.
+
+## What does “native Mac app” mean?
+
+MacNative focuses on software that takes advantage of macOS rather than simply placing a web application inside a desktop window.
+
+We look for apps that:
+
+- use native macOS technologies or deeply integrate with the operating system;
+- follow familiar Mac interface conventions;
+- support keyboard shortcuts, menus, window behavior, and system features properly;
+- are actively maintained;
+- are transparent about pricing and functionality;
+- offer a high-quality experience for Mac users.
+
+Read the full [MacNative app selection methodology](https://macnative.io/blog/how-we-pick-apps).
+
+## Find the best Mac apps by use case
+
+Explore the [MacNative macOS app directory](https://macnative.io) for hand-picked software across productivity, development, utilities, writing, AI, menu bar tools, note-taking, window management, and more.
+
+You can also browse:
+
+- [Mac app categories](https://macnative.io/categories)
+- [MacNative app guides and comparisons](https://macnative.io/blog)
+- [Submit a native macOS app](https://macnative.io/submit)
+
+## For Mac app developers
+
+Building a great native Mac app?
+
+You can [submit your macOS app to MacNative](https://macnative.io/submit) for editorial review.
+
+Developers can also use our [Mac app launch platform directory](https://github.com/macnative/awesome-mac-launch-platforms) to find communities, directories, newsletters, and other places where Mac users discover new software.
 
 ## Contributing
 
-Each repository has its own `CONTRIBUTING.md` with the specific format we're looking for — issues and pull requests are welcome across all of them. Found a native app that deserves a spot in the directory itself? [Submit it here](https://macnative.io/submit).
+Our public GitHub projects are designed to be useful community resources.
+
+Issues, corrections, and pull requests are welcome. Check the `CONTRIBUTING.md` file in each repository for its submission requirements and editorial guidelines.
 
 ---
 
-<p align="center"><sub><a href="https://macnative.io">macnative.io</a> · <a href="https://macnative.io/blog">blog</a> · <a href="https://x.com/best_macapps">@best_macapps</a></sub></p>
+**MacNative** — discover fast, thoughtfully designed, native software for macOS.
+
+[Native Mac apps](https://macnative.io) · [Mac app categories](https://macnative.io/categories) · [Mac app guides](https://macnative.io/blog) · [Submit an app](https://macnative.io/submit)
