@@ -1,6 +1,6 @@
 # MacNative — Native macOS Apps & Non-Electron Alternatives
 
-[**MacNative**](https://macnative.io) is an independent directory of **native macOS apps** built to feel at home on the Mac.
+MacNative.io is an independent directory of **native macOS apps** built to feel at home on the Mac.
 
 We help Mac users discover fast, lightweight software built with technologies such as **Swift, SwiftUI, AppKit, and Objective-C** — including alternatives to Electron and browser-based desktop apps.
 
